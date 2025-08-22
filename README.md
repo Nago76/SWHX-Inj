@@ -13,7 +13,7 @@ So this only work if u have signed your dll, yes it very shitty injector and no 
 
 ```cpp
 // ADD THIS BELOW DLLMAIN!
-extern "C" __declspec(dllexport) int YuB_X(int nCode, WPARAM wParam, LPARAM lParam) { return CallNextHookEx(NULL, nCode, wParam, lParam); }
+extern "C" __declspec(dllexport) int NextHook(int nCode, WPARAM wParam, LPARAM lParam) { return CallNextHookEx(NULL, nCode, wParam, lParam); }
 
 ```
 
