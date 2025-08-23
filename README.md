@@ -9,7 +9,7 @@ This only for Roblox
 
 So this only work if u have signed your dll, yes it very shitty injector and no offsets require. So to implement this its very easy
 
-1. you have to add this code below dllmain
+1. you have to add this code below dllmain at ur api module
 
 ```cpp
 // ADD THIS BELOW DLLMAIN!
